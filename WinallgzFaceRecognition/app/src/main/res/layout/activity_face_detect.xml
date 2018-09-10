@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar"
+        android:id="@+id/title_bar"/>
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/person_count"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="检测到的人数有"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="开始检测"
+            />
+        <Button
+            android:id="@+id/shot"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="截屏检测"
+            />
+
+    </LinearLayout>
+
+    <com.kongqw.ObjectDetectingView
+        android:id="@+id/detect_view"
+        android:layout_above="@+id/content_view"
+        android:layout_below="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

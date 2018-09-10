@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WinallgzFaceRecognition</string>
+    
+    <string name="face_detect">人脸检测</string>
+    <string name="face_recognition">人脸识别</string>
+    <string name="face_count">人脸统计</string>
+    <string name="face_compare">人脸比对</string>
+    
+    <string name="face_semblance">人脸相似度</string>
+</resources>

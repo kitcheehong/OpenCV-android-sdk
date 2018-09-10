@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.winallgz.winallgzfacerecognition.MainActivity">
+
+    <Button
+        android:id="@+id/btn_detect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/face_detect"
+        />
+    <Button
+        android:id="@+id/btn_recognize"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/face_recognition"
+        />
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/face_count"
+        />
+    <Button
+        android:id="@+id/btn_compare"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/face_compare"
+        />
+
+
+
+</LinearLayout>

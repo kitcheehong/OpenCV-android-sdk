@@ -1,0 +1,31 @@
+ext{
+
+    // Android开发版本配置
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.2",
+            applicationId    : "com.winallgz.winallgzfacerecognition",
+            minSdkVersion    : 14,
+            targetSdkVersion : 21,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    //version配置
+    version = [
+            "support-version": "26.0.2",
+            "junit-version"  : "4.12",
+    ]
+
+    //support配置
+    support = [
+            'support-v4'       : 'com.android.support:support-v4:${version["support-version"]}',
+            'appcompat-v7'     : 'com.android.support:appcompat-v7:${version["support-version"]}',
+            'recyclerview-v7'  : 'com.android.support:recyclerview-v7:${version["support-version"]}',
+            'support-v13'      : 'com.android.support:support-v13:${version["support-version"]}',
+            'support-fragment' : 'com.android.support:support-fragment:${version["support-version"]}',
+            'animated-vector-drawable' : 'com.android.support:animated-vector-drawable:${version["support-version"]}',
+            'junit'            : 'junit:junit:${version["junit-version"]}',
+    ]
+
+}

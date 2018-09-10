@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenCVLibrary320/OpenCVLibrary320.iml" filepath="$PROJECT_DIR$/OpenCVLibrary320/OpenCVLibrary320.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenCVLibrary343/OpenCVLibrary343.iml" filepath="$PROJECT_DIR$/OpenCVLibrary343/OpenCVLibrary343.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WinallgzFaceRecognition.iml" filepath="$PROJECT_DIR$/WinallgzFaceRecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
